@@ -1,4 +1,4 @@
-package Usuario;
+package usuarios;
 
 public class Usuario {
     //Datos básicos del usuario

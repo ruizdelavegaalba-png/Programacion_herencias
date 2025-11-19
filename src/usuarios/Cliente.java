@@ -1,6 +1,6 @@
-package Usuario;
+package usuarios;
 
-import Articulo.Articulo;
+import articulos.Articulo;
 
 public class Cliente extends Usuario {
     //Artículo que el cliente alquila

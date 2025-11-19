@@ -1,4 +1,4 @@
-package Articulo;
+package articulos;
 
 public class Libro extends Articulo {
     //Atributos específico de un libto
@@ -17,6 +17,13 @@ public class Libro extends Articulo {
     //Constructor vacío
     public Libro() {
     }
+    //Constructor con numero de pagina a 100 por defecto
+    public Libro(String autor, int numPaginas, Genero genero) {
+        this.autor = autor;
+        this.numPaginas = 100;
+        this.genero = genero;
+    }
+
     //Getters y setters
     public String getAutor() {
         return autor;

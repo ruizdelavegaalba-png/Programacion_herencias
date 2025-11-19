@@ -1,4 +1,4 @@
-package Articulo;
+package articulos;
 
 public class Pelicula extends Articulo {
     //Atributos específicos de una película

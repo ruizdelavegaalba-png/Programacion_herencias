@@ -1,4 +1,4 @@
-package Articulo;
+package articulos;
 
 public class AlbumMusica extends Articulo {
     //Atributos específicos de un álbum musical

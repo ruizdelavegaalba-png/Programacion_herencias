@@ -1,4 +1,4 @@
-package Articulo;
+package articulos;
 
 public class Articulo {
     //Atributos del artículo

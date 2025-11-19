@@ -1,4 +1,4 @@
-package Articulo;
+package articulos;
 
 public class VideoJuego extends Articulo {
     // Atributos específicos de un videojuego

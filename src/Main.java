@@ -1,10 +1,10 @@
-import Articulo.Articulo;
-import Articulo.Libro;
-import Articulo.Pelicula;
-import Articulo.AlbumMusica;
-import Articulo.VideoJuego;
-import Usuario.Cliente;
-import Usuario.Administrador;
+import articulos.Articulo;
+import articulos.Libro;
+import articulos.Pelicula;
+import articulos.AlbumMusica;
+import articulos.VideoJuego;
+import usuarios.Cliente;
+import usuarios.Administrador;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
