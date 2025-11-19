@@ -18,7 +18,8 @@ public class Libro extends Articulo {
     public Libro() {
     }
     //Constructor con numero de pagina a 100 por defecto
-    public Libro(String autor, int numPaginas, Genero genero) {
+    public Libro(String titulo, int anyoLanzamiento, double precioPorDia, String autor, int numPaginas, Genero genero) {
+        super(titulo, anyoLanzamiento, precioPorDia);
         this.autor = autor;
         this.numPaginas = 100;
         this.genero = genero;
