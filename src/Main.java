@@ -9,7 +9,7 @@ import usuarios.Administrador;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //Crear artículo
+        
         Articulo articulo1 = new Articulo( "Botella", 2022, 20);
         Articulo articulo2 = new Articulo("Papel", 2022, 20);
         System.out.println(articulo1);
@@ -35,17 +35,17 @@ public class Main {
         System.out.println(v1);
         System.out.println(v2);
 
-        // Crear clientes
+       
         Cliente c1 = new Cliente("juan", "Segura123456", 1, 2000,p1, 100);
         Cliente c2 = new Cliente("maria", "123456", 2, 2010, null, 101);
         System.out.println(c1);
         System.out.println(c2);
 
-        // Crear administrador
+       
         Administrador admin = new Administrador("adminterry", "123456", 3, 1980, Administrador.rol.JEFE);
         System.out.println(admin);
 
-        // Asignar artículo
+        
         admin.asignarArticulo(c2, v1);
         System.out.println("Artículo asignado a María: " + c2.getArticulo());
 
